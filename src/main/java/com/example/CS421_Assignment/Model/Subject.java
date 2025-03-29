@@ -16,8 +16,7 @@ public class Subject {
 
     public Subject(){}
 
-    public Subject(Long id, String name, int academicYear) {
-        this.id = id;
+    public Subject(String name, int academicYear) {
         this.name = name;
         this.academicYear = academicYear;
     }

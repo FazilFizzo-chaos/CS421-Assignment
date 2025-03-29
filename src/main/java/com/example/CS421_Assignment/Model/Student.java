@@ -16,8 +16,7 @@ public class Student {
 
     public Student(){}
 
-    public Student(Long id, String name, String enrolledProgram) {
-        this.id = id;
+    public Student(String name, String enrolledProgram) {
         this.name = name;
         this.enrolledProgram = enrolledProgram;
     }
