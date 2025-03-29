@@ -12,13 +12,13 @@ public class Student {
     private Long id;
 
     private String name;
-    private String enrolledProgram;
+    private String enrolledprogram;
 
     public Student(){}
 
-    public Student(String name, String enrolledProgram) {
+    public Student(String name, String enrolledprogram) {
         this.name = name;
-        this.enrolledProgram = enrolledProgram;
+        this.enrolledprogram = enrolledprogram;
     }
 
     public Long getId() {
@@ -37,11 +37,11 @@ public class Student {
         this.name = name;
     }
 
-    public String getEnrolledProgram() {
-        return enrolledProgram;
+    public String getEnrolledprogram() {
+        return enrolledprogram;
     }
 
-    public void setEnrolledProgram(String enrolledProgram) {
-        this.enrolledProgram = enrolledProgram;
+    public void setEnrolledprogram(String enrolledprogram) {
+        this.enrolledprogram = enrolledprogram;
     }
 }

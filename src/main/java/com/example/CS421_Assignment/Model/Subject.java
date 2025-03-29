@@ -12,13 +12,13 @@ public class Subject {
     private Long id;
 
     private String name;
-    private int academicYear;
+    private int academicyear;
 
     public Subject(){}
 
-    public Subject(String name, int academicYear) {
+    public Subject(String name, int academicyear) {
         this.name = name;
-        this.academicYear = academicYear;
+        this.academicyear = academicyear;
     }
 
     public Long getId() {
@@ -37,11 +37,11 @@ public class Subject {
         this.name = name;
     }
 
-    public int getAcademicYear() {
-        return academicYear;
+    public int getAcademicyear() {
+        return academicyear;
     }
 
-    public void setAcademicYear(int academicYear) {
-        this.academicYear = academicYear;
+    public void setAcademicyear(int academicyear) {
+        this.academicyear = academicyear;
     }
 }
